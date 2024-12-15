@@ -1,13 +1,22 @@
 * {
     font-family: 'Times New Roman';
-    background-color: brown;
+    background-color: white;
 }
 
-br {
-    background-color: black;
+p {
+    font-size: 18px;
+}
+
+#quiz {
+
 }
 
 .title {
     font-family: 'luminari';
     font-size: 35px;
 }
+
+.question {
+
+}
+
