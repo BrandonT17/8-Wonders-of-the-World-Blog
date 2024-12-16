@@ -20,3 +20,18 @@ p {
 
 }
 
+input[type="submit"] {
+    background-color:cornflowerblue; /* Green background */
+    color: white; /* White text */
+    border: 1; /* Remove borders */
+    padding: 10px 10px; /* Add some padding */
+    text-align: center; /* Center the text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Inline-block for sizing */
+    font-size: 16px; /* Increase font size */
+    margin: 20px 0; /* Add space around */
+    cursor: pointer; /* Pointer cursor on hover */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth hover effects */
+}
