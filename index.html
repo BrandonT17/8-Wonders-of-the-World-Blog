@@ -2,21 +2,15 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="style.css">
-    <title>Blog: Home</title>
+    <title>Home | My Blog</title>
 </head>
 <body>
     <header>
-        <!--<ul>
-            <li>Read</li>
-            <li>Take Quiz</li>
-            <li>Contact Us</li>
-            <li>Resources</li>
-        </ul>-->
         <div>
             <h1 class="title">The 8 Wonders of the World</h1>
         </div>
 
-        <p>Throughout history, humanity has proven capable of achieving feats beyond imagination. From Egypt's Great Pyramid of Giza to Vatican City's St. Peter's Basilica, civilizations of the past have left their mark on history with tremendous works of architecture. However, there are eight places in particular that stand out among the rest—eight places so extraordinary that they have become known as the "8 Wonders of the World." Each of these sites tells its own story, and today, we will share them with you.</p>
+        <p>Throughout history, humanity has proven capable of achieving feats beyond imagination. From Egypt's Great Pyramid of Giza to Vatican City's St. Peter's Basilica, civilizations of the past have left their mark on history with tremendous works of architecture. However, there are eight places in particular that stand out among the rest—eight places so extraordinary that they have become known as the "8 Wonders of the World." Each of these sites tells its own story, and today, we'll go around the world and share them with you.</p>
         <nav>
             <h3>Table of Contents</h3>
             <ol>
@@ -33,12 +27,16 @@
                 <!--
                 <li><a href="#quiz">Test Your Knowledge</a></li>
                 <li></li>
-                -->
-                <a href="#quiz">Test Your Knowledge!</a>
+                
+                <a href="quiz.html">Test Your Knowledge!</a>
                 <br>
                 <a href="contact.html">Contact Me!</a>
+                -->
             </ul>
-        </nav>
+            <a href="quiz.html">Test Your Knowledge!</a>
+            <br>
+            <a href="contact.html">Contact Me!</a>
+        </nav><br>
     </header>
     
     <hr size="1">
@@ -46,7 +44,7 @@
     <!--The Great Wall of China--> 
     <section id="The Great Wall of China">
         <h2>The Great Wall of China</h2>
-        <img src="https://www.classicjourneys.com/wp-content/uploads/2021/07/servletImageServer-729.jpeg" height="auto" width="700"/>
+        <img src="https://www.classicjourneys.com/wp-content/uploads/2021/07/servletImageServer-729.jpeg" height="auto" width="700" id="image"/>
         <p><strong>The Great Wall of China</strong>, located in northern China, stretches across 15 provinces, including Beijing, Hebei, Shanxi, and Gansu. Built over two millennia, its construction began during the Warring States Period (7th century BCE) and continued through the Qin, Han, and Ming dynasties, with significant expansions during the Ming Dynasty (1368–1644).</p>
         <p>Culturally, the Wall is a powerful symbol of Chinese unity, strength, and perseverance. It played a critical role in safeguarding the Chinese civilization from nomadic invasions while controlling trade along the Silk Road. The Wall also served as a communication network, with beacon towers used to transmit messages through smoke signals. </p>
         <p>Architecturally, the Great Wall is a masterpiece of ancient engineering. It combines a variety of materials like stone, brick, tamped earth, and wood, adapted to local resources and geography. Watchtowers and fortresses are strategically positioned for surveillance and defense. The Wall’s design showcases advanced construction techniques, including drainage systems and battlements for archers. The most famous sections, such as Badaling and Mutianyu near Beijing, are well-preserved examples of its grandeur. Recognized as a UNESCO World Heritage Site, the Wall stands as a testament to China’s historical innovation and remains a global cultural icon.</p>
@@ -55,8 +53,8 @@
     <hr size="1">
     
     <!--Chicken Itza-->
-    <section id="Chicken Itza">
-        <h2>Chicken Itza</h2>
+    <section id="Chichen Itza">
+        <h2>Chichen Itza</h2>
         <img src="https://cdn.togethertowherever.com/wp-content/uploads/2024/05/traveling_to_chichen_itza.jpg" height="auto" width="700"/>
         <p><strong>Chichen Itza</strong> is one of the most famous ancient Mayan cities, located in the Yucatan Peninsula of Mexico. It was a major center of the Maya civilization from approximately 600 to 900 CE, during the Terminal Classic period. The city is renowned for its well-preserved ruins, including impressive structures such as the El Castillo pyramid, also known as the Temple of Kukulkan, which was used for astronomical and religious purposes.</p>
         <p>Culturally, Chichen Itza was an important hub for trade, politics, and religion. It was dedicated to the feathered serpent god, Kukulkan, and was a center for Mayan ceremonies, including human sacrifices, which were believed to appease the gods and ensure agricultural prosperity. The city is famous for its equinox phenomenon, where the shadow of the serpent god appears to descend down the pyramid’s steps, creating an awe-inspiring visual effect.</p>
@@ -128,140 +126,22 @@
         <p>Architecturally, Angkor Wat is renowned for its grandeur and precision. It is designed to represent an earthly model of the cosmic world, with its central tower symbolizing Mount Meru, the center of the universe in Hindu and Buddhist cosmology. The temple complex covers over 162 hectares (400 acres) and is surrounded by a vast moat, emphasizing its monumental scale. Angkor Wat is known for its intricate bas-reliefs depicting scenes from Hindu mythology, including the famous Churning of the Ocean of Milk. The temple’s layout and structure reflect advanced knowledge of architecture and astronomy, with its alignment to the cardinal points and its emphasis on symmetry.</p>
         <p>Angkor Wat was designated a UNESCO World Heritage Site in 1992 and remains a symbol of Cambodia’s cultural and architectural legacy. It attracts millions of visitors each year, drawn by its beauty, history, and the sense of awe inspired by its ancient grandeur.</p>
     </section>
-
+    <!--include a link to the UNESCO site as well--> 
     <hr size="1">
-
-    <!--QUIZ-->
-    <section id="quiz">
-        <h2>Test Your Knowledge: The 8 Wonders Quiz</h2>
-        <h4>Let's see what you've learned! Answer the following questions to see your score: </h4>
-        <form>
-            <section>
-                <span>Question 1. What was the primary purpose for the construction of the Great Wall of China?</span><br>
-                    <label>
-                    <input type="radio" name="q1" value="A"> A) To mark the borders of the Chinese empire
-                    </label><br>
-                    <label>
-                    <input type="radio" name="q1" value="B"> B) To protect against invasions from northern tribes <!--correct-->
-                    </label><br>
-                    <label>
-                    <input type="radio" name="q1" value="C"> C) To facilitate trade along the Silk Road
-                    </label><br>
-                    <label>
-                    <input type="radio" name="q1" value="D"> D) To serve as a ceremonial monument
-                    </label> 
-            </section>
-            <section>
-                <br><span>Question 2. Chichen Itza is located in which modern-day country?</span><br>
-                    <label>
-                    <input type="radio" name="q2" value="A"> A) Peru
-                    </label><br>
-                    <label>
-                    <input type="radio" name="q2" value="B"> B) Mexico <!--correct-->
-                    </label><br>
-                    <label>
-                    <input type="radio" name="q2" value="C"> C) Brazil
-                    </label><br>
-                    <label>
-                    <input type="radio" name="q2" value="D"> D) Guatemala
-                    </label> 
-            </section>
-            <section>
-                <br><span>Question 3. Petra is known as the "Rose City" because of: </span><br>
-                    <label>
-                    <input type="radio" name="q3" value="A"> A) Jordan's plentiful rose gardens
-                    </label><br>
-                    <label>
-                    <input type="radio" name="q3" value="B"> B) Its association with love and romance
-                    </label><br>
-                    <label>
-                    <input type="radio" name="q3" value="C"> C) The pink hue of its rock-cut architecture <!--correct-->
-                    </label><br>
-                    <label>
-                    <input type="radio" name="q3" value="D"> D) The roses carved into its walls
-                    </label> 
-                </section>
-                <section>
-                <br><span>Question 4. Machu Picchu was built by which ancient civilization?</span><br>
-                    <label>
-                    <input type="radio" name="q4" value="A"> A) Maya
-                    </label><br>
-                    <label>
-                    <input type="radio" name="q4" value="B"> B) Olmec
-                    </label><br>
-                    <label>
-                    <input type="radio" name="q4" value="C"> C) Aztec
-                    </label><br>
-                    <label>
-                    <input type="radio" name="q4" value="D"> D) Inca <!--correct-->
-                    </label> 
-                </section>
-                <section>
-                <br><span>Question 5. Christ the Redeemer overlooks which city?</span><br>
-                    <label>
-                    <input type="radio" name="q5" value="A"> A) Brasilia
-                    </label><br>
-                    <label>
-                    <input type="radio" name="q5" value="B"> B) Sao Paulo
-                    </label><br>
-                    <label>
-                    <input type="radio" name="q5" value="C"> C) Rio de Janeiro <!--correct-->
-                    </label><br>
-                    <label>
-                    <input type="radio" name="q5" value="D"> D) Salvador
-                    </label>
-                </section>
-                <section>
-                <br><span>Question 6. The Colosseum was used primarily for: </span><br>
-                    <label>
-                    <input type="radio" name="q6" value="A"> A) Gladiatorial contests and public spectacles <!--correct-->
-                    </label><br>
-                    <label>
-                    <input type="radio" name="q6" value="B"> B) Politcal gatherings and forums
-                    </label><br>
-                    <label>
-                    <input type="radio" name="q6" value="C"> C) Religious ceremonies
-                    </label><br>
-                    <label>
-                    <input type="radio" name="q6" value="D"> D) The Roman emperor's banquets
-                    </label> 
-                </section>
-                <section>
-                <br><span>Question 7. The Taj Mahal was built as a mausoleum for which Mughal emperor's wife?</span><br>
-                    <label>
-                    <input type="radio" name="q7" value="A"> A) Akbar
-                    </label><br>
-                    <label>
-                    <input type="radio" name="q7" value="B"> B) Shah Jahan <!--correct-->
-                    </label><br>
-                    <label>
-                    <input type="radio" name="q7" value="C"> C) Jahangir
-                    </label><br>
-                    <label>
-                    <input type="radio" name="q7" value="D"> D) Babur
-                    </label>
-                </section>
-                <section>
-                <br><span>Question 8. Angkor Wat was originally built as a temple for which religion?</span><br>
-                    <label>
-                    <input type="radio" name="q8" value="A"> A) Buddhism
-                    </label><br>
-                    <label>
-                    <input type="radio" name="q8" value="B"> B) Hinduism <!--correct-->
-                    </label><br>
-                    <label>
-                    <input type="radio" name="q8" value="C"> C) Jainism
-                    </label><br>
-                    <label>
-                    <input type="radio" name="q8" value="D"> D) Sikhism
-                    </label>
-                </section>
-                <section class="submission">
-                    <input type="submit" value="Submit">
-                </section>
-            </section>
-        </form>
-    </section> 
-    <!--include a link to the UNESCO site as well-->   
+    <footer>
+        <h3>After Reading: </h3>
+        Test your knowledge by taking this <a href="quiz.html">quiz</a>.
+        <h4>Additional Resources:</h4>
+        <ul>
+            <li><a href="https://www.britannica.com/topic/Great-Wall-of-China" target="_blank">https://www.britannica.com/topic/Great-Wall-of-China</a></li>
+            <li><a href="https://www.britannica.com/place/Chichen-Itza" target="_blank">https://www.britannica.com/place/Chichen-Itza</a></li>
+            <li><a href="https://www.britannica.com/place/Petra-ancient-city-Jordan" target="_blank">https://www.britannica.com/place/Petra-ancient-city-Jordan</a></li>
+            <li><a href="https://www.britannica.com/place/Machu-Picchu" target="_blank">https://www.britannica.com/place/Machu-Picchu</a></li>
+            <li><a href="https://www.britannica.com/topic/Christ-the-Redeemer" target="_blank">https://www.britannica.com/topic/Christ-the-Redeemer</a></li>
+            <li><a href="https://www.britannica.com/topic/Colosseum" target="_blank">https://www.britannica.com/topic/Colosseum</a></li>
+            <li><a href="https://www.britannica.com/topic/Taj-Mahal" target="_blank">https://www.britannica.com/topic/Taj-Mahal</a></li>
+            <li><a href="https://www.britannica.com/topic/Angkor-Wat" target="_blank">https://www.britannica.com/topic/Angkor-Wat</a></li>
+        </ul>
+    </footer>
 </body> 
 </html>
