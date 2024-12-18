@@ -8,6 +8,11 @@ p {
     text-align: justify;
 }
 
+h2 {
+    font-size: 28px;
+    font-family: Garamond;
+}
+
 hr {
     color:black;
     background-color:black;
@@ -15,10 +20,20 @@ hr {
 
 img {
     border: 1px solid black;
+
+}
+
+.title_container {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin-bottom: 50px;
 }
 
 html, body {
-    background-color: white;
+    background-color:rgb(64, 107, 224);
     margin: 0;
     padding: 0;
     width: 100%;
@@ -31,7 +46,7 @@ footer {
 }
 
 figcaption {
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .title {
@@ -108,7 +123,7 @@ figcaption {
     display: flex;
     text-align: center;
     flex-direction: column;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     margin-top: 50px;
 }
 
