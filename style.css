@@ -20,16 +20,6 @@ hr {
 
 img {
     border: 1px solid black;
-
-}
-
-.title_container {
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-    margin-bottom: 50px;
 }
 
 html, body {
@@ -57,6 +47,15 @@ figcaption {
     text-align: center;
 }
 
+.title_container {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
 #welcome_message {
     text-align: center;
     margin-top: 1px;
@@ -80,6 +79,17 @@ figcaption {
     padding-top: 5px;
     padding-bottom: 5px;
     font-size: 18px;
+}
+
+#result {
+    font-size: 20px;
+    font-style: bold;
+}
+
+#result p {
+    font-size: 20px;
+    margin-left: 25px;
+    border: 1px double black;
 }
 
 #table_of_contents_header {
@@ -246,6 +256,7 @@ input[type="submit"]:hover {
 
 .blinking {
     animation: blink 0.75s steps(1) infinite; /* Apply blinking animation with steps */
+    color: red;
 }
 
 @keyframes blink {
